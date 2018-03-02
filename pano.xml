@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1">
+  <panorama id="node1">
+    <input tile1url="images/panorama1_o_1.jpg" prev0url="images/panorama1_o_preview_0.jpg" tilescale="1.009766" tile2url="images/panorama1_o_2.jpg" prev1url="images/panorama1_o_preview_1.jpg" tilesize="1024" prev4url="images/panorama1_o_preview_4.jpg" prev5url="images/panorama1_o_preview_5.jpg" tile4url="images/panorama1_o_4.jpg" tile3url="images/panorama1_o_3.jpg" tile0url="images/panorama1_o_0.jpg" prev2url="images/panorama1_o_preview_2.jpg" levelingpitch="0" levelingroll="0" tile5url="images/panorama1_o_5.jpg" prev3url="images/panorama1_o_preview_3.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-1.05" fov="70" pan="87.27"/>
+      <min tilt="-90" fov="5" pan="-26.4"/>
+      <max tilt="53" fov="120" pan="204.6"/>
+    </view>
+    <userdata datetime="" author="" info="" comment="" description="" tags="lumion" title="" copyright="" latitude="" longitude="" source=""/>
+    <hotspots height="0" wordwrap="1" width="180">
+      <label border="0" backgroundcolor="0xffffff" borderalpha="1" enabled="1" bordercolor="0x325132" height="0" textcolor="0x000000" background="1" wordwrap="1" width="180" textalpha="1" borderradius="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <polyhotspot target="" description="" title="ВХОД" url="{node2}" id="Poly01">
+        <vertex tilt="-23.09" pan="106.49"/>
+        <vertex tilt="-15.15" pan="112.39"/>
+        <vertex tilt="-1.68" pan="114.44"/>
+        <vertex tilt="6.76" pan="111.98"/>
+        <vertex tilt="11.55" pan="99.4"/>
+        <vertex tilt="11.5" pan="86.57"/>
+        <vertex tilt="1.16" pan="75.95"/>
+        <vertex tilt="-16.7" pan="75.35"/>
+        <vertex tilt="-24.04" pan="79.24"/>
+        <vertex tilt="-27.26" pan="89.95"/>
+        <vertex tilt="-26.61" pan="101.85"/>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <lensflare type="3" tilt="34.17" alpha="80" id="Lensflare01" blinding="50" color="0xffffff" pan="177.54"/>
+    </media>
+    <transition softedge="0" enabled="1" zoomout="0" type="diptocolor" zoomspeed="2" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomin="0"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" speed="0.100"/>
+    <control hideabout="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="0" speedwheel="1" invertwheel="0" lockedmouse="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input tile1url="images/panorama2_o_1.jpg" prev0url="images/panorama2_o_preview_0.jpg" tilescale="1.009766" tile2url="images/panorama2_o_2.jpg" prev1url="images/panorama2_o_preview_1.jpg" tilesize="1024" prev4url="images/panorama2_o_preview_4.jpg" prev5url="images/panorama2_o_preview_5.jpg" tile4url="images/panorama2_o_4.jpg" tile3url="images/panorama2_o_3.jpg" tile0url="images/panorama2_o_0.jpg" prev2url="images/panorama2_o_preview_2.jpg" levelingpitch="0" levelingroll="0" tile5url="images/panorama2_o_5.jpg" prev3url="images/panorama2_o_preview_3.jpg">
+      <preview color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start tilt="-10.64" fov="75" pan="94.09"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max tilt="90" fov="120" pan="360"/>
+    </view>
+    <userdata datetime="2018:03:02 15:11:36" author="" info="" comment="" description="" tags="lumion" title="" copyright="" latitude="" longitude="" source=""/>
+    <hotspots height="0" wordwrap="1" width="180">
+      <label border="0" backgroundcolor="0xffffff" borderalpha="1" enabled="1" bordercolor="0x325132" height="0" textcolor="0x000000" background="1" wordwrap="1" width="180" textalpha="1" borderradius="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <polyhotspot target="" description="" title="ВЫХОД" url="{node1}" id="Poly01">
+        <vertex tilt="-52.48" pan="-23.99"/>
+        <vertex tilt="-42.22" pan="-156.92"/>
+        <vertex tilt="27.94" pan="-144.65"/>
+        <vertex tilt="26.09" pan="-37.62"/>
+        <vertex tilt="-30.07" pan="-22.55"/>
+        <vertex tilt="-42.08" pan="-23.49"/>
+      </polyhotspot>
+    </hotspots>
+    <media>
+      <lensflare type="3" tilt="25.38" alpha="80" id="Lensflare01" blinding="50" color="0xffffff" pan="-132.1"/>
+    </media>
+    <transition softedge="0" enabled="1" zoomout="0" type="diptocolor" zoomspeed="2" zoomfov="20" zoomoutpause="1" blendcolor="0x000000" blendtime="1" zoomin="0"/>
+    <autorotate delay="8.00" useanimation="0" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="0" speed="0.100"/>
+    <control hideabout="0" sensitivity="8" lockedkeyboardzoom="0" lockedwheel="0" invertcontrol="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0" contextfullscreen="0" speedwheel="1" invertwheel="0" lockedmouse="0"/>
+  </panorama>
+</tour>
